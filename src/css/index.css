@@ -1,0 +1,307 @@
+*{
+			margin:0;
+			padding:0;
+			list-style:none;
+			text-decoration:none;
+			outline:none;
+			border:none;
+			-webkit-text-size-adjust:none;
+		}
+		body,html{
+			height:100%;
+			-webkit-text-size-adjust:none;
+		}
+		body{
+			background:#000;
+		}
+		a{
+			-webkit-tap-highlight-color:transparent;
+			-webkit-user-select: none;
+			-moz-user-focus: none;
+			-moz-user-select: none;
+					}
+		.page{
+			position:absolute;
+			top:0;
+			bottom:0;
+			left:0;
+			right:0;
+			background:url('../images/bg.jpg') no-repeat center center;
+			background-size:cover;
+		}
+		.wrapper{
+			width:100%;
+			height:100%;
+		}
+		.logo{
+			position:absolute;
+			top:1rem;
+			left:1rem;
+			width:8.65rem;
+			height:1.05rem;
+			background:url('../images/logo.png') no-repeat center center;
+			background-size:contain;
+		}
+		.banner{
+			width:100%;
+			height:14.75rem;
+			margin:0 auto;
+			background:url('../images/banner.png') no-repeat center center;
+			background-size:contain;
+			position:relative;
+			left:0;
+			top:2rem;
+		}
+		.btn-start{
+			width:11.9rem;
+			height:6.25rem;
+			margin:0 auto;
+			background:url('../images/button-start.png') no-repeat center center;
+			background-size:cover;
+			position:relative;
+			left:0;
+			top:1rem;
+		}
+		.ele{
+			background-image:url('../images/ele.png');
+			background-size:16rem;
+			background-repeat:no-repeat;
+		}
+		.my-lotto{
+			width:5.525rem;
+			height:1.95rem;
+			background-position:right -20.5rem;
+			background-size: 16rem;
+			margin:0 auto;
+			z-index:10;
+		}
+		.rule-btn{
+			text-align:center;
+			font-size:1rem;
+			color:#3f3a39;
+			margin-top:0.5rem;
+		}
+		.close{
+			width:1.525rem;
+			height:1.3rem;
+			background-position: right -7.15rem;
+			position:absolute;
+			top:1rem;
+			right:1rem;
+		}
+		.rule{
+			width:12.075rem;
+			height:15.5rem;
+			background:url('../images/rule-bg.png') no-repeat center center;
+			background-size:cover;
+			margin:0 auto;
+			position:relative;
+			top:5rem;
+			padding:1.5rem;
+			box-sizing:border-box;
+
+			/*position:absolute;
+			top:50%;
+			left:50%;
+			margin-left:-6.03rem;
+			margin-top:-7.75rem;*/
+		}
+		.rule .content{
+			width:100%;
+			height:100%;
+			overflow-y:scroll;
+		}
+		.cover,
+		.myLotto,
+		#lottoBox{
+			position:absolute;
+			top:0;
+			left:0;
+			bottom:0;
+			right:0;
+			background:rgba(0,0,0,0.8);
+		}
+		.lotto{
+			margin-top:7rem;
+			color:#f6c15a;
+			text-align:center;
+			transform:scale3d(0,0,0);
+			animation: water 0.3s linear 1.5s 1 forwards;
+			display:none;
+		}
+		.lotto p:nth-child(2){
+			font-size:1.2rem;
+			color:#ff5555;
+		}
+		@keyframes water {
+			0% {
+				transform:scale3d(0,0,0);
+			}
+			100%{
+				transform: scale3d(1,1,1);
+			}
+		}
+		.login{
+			width:12.075rem;
+			height:15.5rem;
+			background:url('../images/sigin.png') no-repeat center center;
+			background-size:cover;
+			margin:0 auto;
+			position:relative;
+			top:5rem;
+			padding:1.5rem;
+			box-sizing:border-box;
+		}
+		.content p{
+			width:7rem;
+			height:1.5rem;
+			position:absolute;
+			left:3.8rem;
+			top:3rem;
+		}
+		.content p:nth-child(2){
+			top:5.5rem;
+		}
+		.content p input{
+			width:100%;
+			height:100%;
+			background:transparent;
+		}
+		.sub{
+			width:8rem;
+			height:2.325rem;
+			position:absolute;
+			bottom: 3.5rem;
+			left:50%;
+			margin-left:-4rem;
+			background-position:right bottom;
+		}
+		.plane{
+			width:15rem;
+			height:15.3rem;
+			margin:3rem auto 0;
+			background:url('../images/plane.png') no-repeat center center;
+			background-size:100%;
+		}
+		#colors_sketch{
+			/*width:12.9rem;
+			height:13rem;*/
+			background:#fff;
+			position:relative;
+			top:1.4rem;
+			left:1rem;
+		}
+		#toolsBOX{
+			margin-top:1px;
+			text-align:center;
+			position:relative;
+		}
+		#toolsBOX a{
+			display:inline-block;
+			width:4.725rem;
+			height:2.75rem;
+		}
+		#toolsBOX a:nth-child(2){
+			background-position:-5rem 0;
+		}
+		#toolsBOX a:nth-child(3){
+			background-position:-10rem 0;	
+		}
+		#upload{
+			display:block;
+			width:9.775rem;
+			height:2.325rem;
+			background-position:0 -3.7rem;
+			margin:0.5rem auto 0;
+		}
+		#bb{
+			width:3.5rem;
+			height:3rem;
+			position:absolute;
+			bottom:0;
+			right:0;
+			background-position:right -3rem;
+		}
+		#lotto{
+			width:9.8rem;
+			height:3.6rem;
+			background-position:left -6.9rem;
+			margin:1rem auto;
+		}
+		.lotbox{
+			width:10.75rem;
+			height:7.875rem;
+			background-position:left -12.1rem;
+			position:absolute;
+			left:50%;
+			bottom:5rem;
+			margin-left:-5.375rem;
+			transform: scale3d(0,0,0);
+			animation: rubberBand 0.8s linear 1s 1 forwards;
+		}
+		@keyframes rubberBand{
+			0%{
+				transform: scale3d(0,0,0);
+			}
+			30%{
+				transform: scale3d(1.25,0.75,1);
+			}
+			40%{
+				transform: scale3d(0.75,1.25,1);
+			}
+			50%{
+				transform: scale3d(1.25,0.85,1);
+			}
+			65%{
+				transform: scale3d(0.95,1.05,1);
+			}
+			75%{
+				transform: scale3d(1.05,0.95,1);
+			}
+			100%{
+				transform: scale3d(1,1,1);
+			}
+		}
+		.water{
+			width:7.525rem;
+			height:3.125rem;
+			background-position:left -20.39rem;
+			position:absolute;
+			left:50%;
+			bottom:12rem;
+			margin-left:-3.762rem;
+			transform:scale3d(0,0,0);
+			transform-origin:bottom center;
+			animation:water 0.3s linear 1.4s 1 forwards;
+		}
+		@keyframes water{
+			0%{
+				transform:scale3d(0,0,0);
+			}
+			100%{
+				transform: scale3d(1,1,1);
+			}
+		}
+		.backIndex{
+			width:5.525rem;
+			height:1.95rem;
+			position:absolute;
+			left:50%;
+			margin-left:-2.76rem;
+			bottom:2rem;
+			background-position:right -9.17rem;
+		}
+		#colorList{
+			position:absolute;
+			bottom:3rem;
+			left:6rem;
+			display:none;
+		}
+		#colorList a{
+			display:block;
+			width:4.725rem;
+			height:1.75rem;
+			color:#fff;
+			line-height:1.75rem;
+			font-size:0.8rem;
+		}

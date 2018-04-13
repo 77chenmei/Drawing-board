@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang ="en,zh">
+<head>
+	<title>Drawing board</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./src/css/index.css">
+	<script src = "./src./js/jquery.min.js"></script>
+</head>
+<body>
+	<div class ="wrapper">
+		<!-- 主页 -->
+		<div class ="page" id ="home">
+			<div class = "logo"></div>
+			<div class = "banner"></div>
+			<div class = "btn-start"></div>
+			<div class ="my-lotto ele"></div>
+			<div class ="rule-btn">活动规则</div>
+		</div>
+		<!-- 遮罩层 -->
+		<div class ="cover" style ="display:none;">
+			<div class ="close ele"></div>
+		</div>
+		<!-- 登录 -->
+		<div class ="login" style ="display:none;">
+			<div class = "content">
+				<p>
+					<input type = "text">
+				</p>
+				<p>
+					<input type="number">
+				</p>
+				<div class ="sub ele"></div>
+			</div>
+		</div>
+		<!-- 规则 -->
+		<div class ="rule" style ="display:none;">
+			<div class = "content">幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过幸运女神和你擦肩而过
+			</div>
+		</div>
+		<!-- 我的礼品 -->
+		<div class = "myLotto" style ="display:none;">
+			<div class ="close ele"></div>
+			<div class ="lotto">
+				<p>恭喜亲获得了</p>
+				<p>秘密花园1本</p>
+			</div>
+			<div class ="lotto">
+				<p>很遗憾</p>
+				<p>幸运女神和你擦肩而过</p>
+			</div>
+		</div>
+		<!-- 游戏 -->
+		<div class ="page" id ="game" style ="display:none;">
+			<div class = "logo"></div>
+			<div class ="plane">
+				<canvas id ="colors_sketch" width = "250" height="260"></canvas>
+			</div>
+			<div id = "toolsBOX">
+				<a href ="#colors_sketch"  class ="ele" data-clear = "true"></a>
+				<a href ="#colors_sketch" class ="ele toolColor"></a>
+				<a href ="#colors_sketch"  class ="ele" data-cancel = "true"></a>
+				<div id = "colorList"></div>
+			</div>
+			<a href ="#colors_sketch" class ="ele" id ="upload" dta-download = 'png'></a>
+			<div class ="ele" id ="bb"></div>
+			<div class ="ele" id ="lotto" style="display:none;"></div>
+		</div>
+		<!-- 参与抽奖 -->
+		<div id ="lottoBox" style="display:none;">
+			<div class ="close ele"></div>
+			<div class ="lotto" >
+				<p>您的奖品是</p>
+				<p>秘密花园1本</p>
+			</div>
+			<div class ="lotto">
+				<p>很遗憾</p>
+				<p>幸运女神和你擦肩而过</p>
+			</div>
+			<div class ="ele lotbox"></div>
+			<div class ="ele water"></div>
+			<div class ="ele backIndex"></div>
+		</div>
+	</div>
+</body>
+</html>
+<script src = "./src/js/canvas.js"></script>
+<script src = "./src/js/index.js"></script>
+
